@@ -1,0 +1,32 @@
+*{
+     box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    background-color: lime;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.mano-paragrafas{
+    color:rgb(1, 255, 14);
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 20px;
+}
+p{
+    background-color: maroon;
+}
+.galerija{
+    background-color: orangered;
+    padding: 50px;
+    width: 50%;
+}
+
+div.galerija img{
+    border: 5px solid grey;
+    padding: 15px;
+    background-color: indigo;
+    box-shadow: green 5px 5px 10px;
+}
