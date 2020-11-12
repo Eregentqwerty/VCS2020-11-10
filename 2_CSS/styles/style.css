@@ -16,7 +16,7 @@ h1 {
     padding: 20px;
 }
 p{
-    background-color: maroon;
+    background-color: rgb(90, 128, 0);
 }
 .galerija{
     background-color: orangered;
@@ -29,4 +29,52 @@ div.galerija img{
     padding: 15px;
     background-color: indigo;
     box-shadow: green 5px 5px 10px;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.box{
+    width: 30%;
+    height: 200px;
+    /* background-color: greenyellow; */
+}
+.box img{
+    border-radius: 50%;
+    width: 50%;
+}
+.box p{
+    background-color: transparent;
+}
+header{
+    position: relative;
+}
+
+header h2{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+}
+.version-two-header{
+    background-color: goldenrod;
+    background-image: url('https://picsum.photos/1920/1080');
+    background-size: cover;
+    background-position: center;
+}
+.version-two-header h2{
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
