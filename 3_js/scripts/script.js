@@ -53,4 +53,19 @@ button1.addEventListener("click",function(){
 
 document.addEventListener("keyup",function(event){
     console.log(event);
-})
+});
+
+var button2=document.querySelector("#change-img");
+button2.addEventListener("click",function(event){
+    
+    var image=document.querySelector("div.gallery img");
+    image.setAttribute("src","http://picsum.photos/seed/"+ Math.random() +"/150");
+});
+
+var images= document.querySelectorAll("div.gallery img");
+
+    for (var j = 0; j < images.lenght; j++){
+        images[j].addEventListener("click",function(event){
+            event.target.setAttribute("src","http://picsum.photos/seed/"+ Math.random() +"/150");
+       });
+};
